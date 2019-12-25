@@ -1,0 +1,21 @@
+title: My Blog
+description: >
+  My Blog Description. This Theme is Louis.
+baseurl: ""
+url: ""
+
+author:
+  name: John Smith
+  email: john.smith@example.com
+  github: jekyll
+  twitter: jekyll
+
+paginate: 5
+paginate_path: page:num
+
+sass:
+  style: expanded
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
