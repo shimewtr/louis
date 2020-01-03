@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+</head>
+
+<body>
+
+<header class="header">
+</header>
+
 {{ content }}
+
+<footer class="footer">
+  {{ site.author.name }}
+  <div class="footer__container">
+    <p class="copyright"><small>&copy; 2017 {{ site.author.name }}</small></p>
+    <div class="social-link">
+      {% if site.author.github %}
+        <p class="social-link__item">
+          <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
+        </p>
+      {% endif %}
+      {% if site.author.twitter %}
+        <p class="social-link__item">
+          <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
