@@ -1,0 +1,11 @@
+---
+---
+
+@import "reset";
+@import "variable";
+@import "color";
+
+html {
+  color: $color-font-main;
+  font-size: $size-font-base;
+}

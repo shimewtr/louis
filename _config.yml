@@ -4,18 +4,19 @@ description: >
 baseurl: ""
 url: ""
 
+excerpt_separator: "<!--more-->"
+
 author:
   name: John Smith
   email: john.smith@example.com
   github: jekyll
   twitter: jekyll
 
-paginate: 5
-paginate_path: page:num
-
 sass:
-  style: expanded
+  style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
-  - jekyll-feed
+
+paginate: 1
+paginate_path: page:num
