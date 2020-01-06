@@ -3,3 +3,15 @@ layout: default
 ---
 
 {{ content }}
+
+{% if page.next %}
+  <p class="pager__item--next">
+    <a href="{{ page.next.url | relative_url }}">&lt; {{ page.next.title }}</a>
+  </p>
+{% endif %}
+
+{% if page.previous %}
+  <p class="pager__item--prev">
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &gt;</a>
+  </p>
+{% endif %}

@@ -14,6 +14,8 @@
 <body>
 
 <header class="header">
+{{ site.title }}
+<img src="" alt="">
 </header>
 
 {{ content }}
@@ -21,7 +23,6 @@
 <footer class="footer">
   {{ site.author.name }}
   <div class="footer__container">
-    <p class="copyright"><small>&copy; 2017 {{ site.author.name }}</small></p>
     <div class="social-link">
       {% if site.author.github %}
         <p class="social-link__item">
@@ -34,6 +35,7 @@
         </p>
       {% endif %}
     </div>
+    <p class="credit">Powered by <a href="https://github.com/wawawatataru/louis" target="blank">Louis</a></p>
   </div>
 </footer>
 
