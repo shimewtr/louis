@@ -12,32 +12,11 @@
 </head>
 
 <body>
-
-<header class="header">
-{{ site.title }}
-<img src="" alt="">
-</header>
+{% include header.html %}
 
 {{ content }}
 
-<footer class="footer">
-  {{ site.author.name }}
-  <div class="footer__container">
-    <div class="social-link">
-      {% if site.author.github %}
-        <p class="social-link__item">
-          <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
-        </p>
-      {% endif %}
-      {% if site.author.twitter %}
-        <p class="social-link__item">
-          <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
-        </p>
-      {% endif %}
-    </div>
-    <p class="credit">Powered by <a href="https://github.com/wawawatataru/louis" target="blank">Louis</a></p>
-  </div>
-</footer>
+{% include footer.html %}
 
 </body>
 </html>
