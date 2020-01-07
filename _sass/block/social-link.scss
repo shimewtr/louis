@@ -1,0 +1,43 @@
+.social-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+
+  > :not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+    &--github {
+      background-color: $color-github;
+
+      @extend .social-link__item;
+    }
+
+    &--twitter {
+      background-color: $color-twitter;
+
+      @extend .social-link__item;
+    }
+
+    &--facebook {
+      background-color: $color-facebook;
+
+      @extend .social-link__item;
+    }
+  }
+}
+
+.fa {
+  color: white;
+  font-size: 1.5rem;
+}

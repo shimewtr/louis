@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer-container {
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 0 2rem;
+  height: 100%;
+  border-top: 1px solid $color-border;
+
+  @include container();
+}
+
+.footer-profile {
+  &__name {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  &__icon {
+    margin-bottom: 0.5rem;
+    width: $size-footer-profile-icon;
+    height: $size-footer-profile-icon;
+  }
+}
+
+.footer-credit {
+  margin-top: 2rem;
+  font-size: 0.625rem;
+
+  &__link {
+    color: $color-font-main;
+  }
+}

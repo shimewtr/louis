@@ -1,0 +1,4 @@
+@mixin container() {
+  display: flex;
+  width: $size-container-width;
+}
