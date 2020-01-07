@@ -1,18 +1,8 @@
 <footer class="footer">
-  {{ site.author.name }}
-  <div class="footer__container">
-    <div class="social-link">
-      {% if site.author.github %}
-        <p class="social-link__item">
-          <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
-        </p>
-      {% endif %}
-      {% if site.author.twitter %}
-        <p class="social-link__item">
-          <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
-        </p>
-      {% endif %}
-    </div>
-    <p class="credit">Powered by <a href="https://github.com/wawawatataru/louis" target="blank">Louis</a></p>
+  <div class="footer-container">
+    <img src="{{ '/assets/images/profile_icon.png' | relative_url }}" class="footer-profile__icon" alt="">
+    <p class="footer-profile__name">{{ site.author.name }}</p>
+    {% include social-link.html %}
+    <p class="footer-credit">Powered by <a href="https://jekyllrb.com/" class="footer-credit__link" target="blank">Jekyll</a> / <a href="https://github.com/wawawatataru/louis" class="footer-credit__link" target="blank">Louis</a></p>
   </div>
 </footer>

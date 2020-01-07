@@ -11,6 +11,7 @@ author:
   email: john.smith@example.com
   github: jekyll
   twitter: jekyll
+  facebook: jekyll
 
 sass:
   style: compressed

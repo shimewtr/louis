@@ -1,0 +1,27 @@
+.social-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+
+  > :not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+.fa {
+  font-size: 1.5rem;
+
+  &-github {
+    color: $color-github;
+  }
+
+  &-twitter {
+    color: $color-twitter;
+  }
+
+  &-facebook {
+    color: $color-facebook;
+  }
+}
