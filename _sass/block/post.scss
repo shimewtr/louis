@@ -82,6 +82,10 @@
 
   a {
     color: $color-font-sub;
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   table {

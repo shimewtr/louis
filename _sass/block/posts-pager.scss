@@ -1,4 +1,4 @@
-.post-pager {
+.posts-pager {
   align-items: center;
   flex-direction: row;
   padding-bottom: 2rem;
@@ -15,18 +15,25 @@
     &--prev {
       justify-content: flex-start;
 
-      @extend .post-pager__item;
+      @extend .posts-pager__item;
     }
 
     &--next {
       justify-content: flex-end;
 
-      @extend .post-pager__item;
+      @extend .posts-pager__item;
     }
+  }
+
+  &__number {
+    justify-content: center;
+
+    @extend .posts-pager__item;
   }
 
   &__link {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     height: 100%;

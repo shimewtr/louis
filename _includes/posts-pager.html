@@ -1,0 +1,19 @@
+<div class="posts-pager">
+  {% if paginator.total_pages > 1 %}
+    <p class="posts-pager__item--next">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="posts-pager__link">&lt; Prev</a>
+      {% endif %}
+    </p>
+
+      <p class="posts-pager__number">
+        {{ paginator.page }} / {{ paginator.total_pages }}
+      </p>
+
+    <p class="posts-pager__item--prev">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="posts-pager__link">Next &gt;</a>
+      {% endif %}
+    </p>
+  {% endif %}
+</div>

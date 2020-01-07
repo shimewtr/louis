@@ -1,0 +1,6 @@
+.posts {
+  flex-direction: column;
+  padding: 2rem 0 5rem;
+
+  @include container();
+}
