@@ -1,13 +1,13 @@
 <div class="post-pager">
-  <p class="post-pager__item">
-    {% if page.next %}
-      <a href="{{ page.next.url | relative_url }}" class="post-pager__link--next">&lt; {{ page.next.title }}</a>
+  <p class="post-pager__item--prev">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-pager__link"> &lt; {{ page.previous.title }}</a>
     {% endif %}
   </p>
 
-  <p class="post-pager__item">
-    {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}" class="post-pager__link--prev">{{ page.previous.title }} &gt;</a>
+  <p class="post-pager__item--next">
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="post-pager__link">{{ page.next.title }} &gt;</a>
     {% endif %}
   </p>
 </div>
