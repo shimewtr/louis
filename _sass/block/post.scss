@@ -1,6 +1,13 @@
+.post {
+  &__date {
+    color: $color-font-sub;
+    font-size: 0.875rem;
+  }
+}
+
 .post-container {
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 2rem 0 5rem;
   color: $color-font-sub;
   line-height: 1.875rem;
 
@@ -31,7 +38,7 @@
   }
 
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
   }
 
   h2,
