@@ -1,0 +1,31 @@
+.profile-page {
+  &__name {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  &__icon {
+    width: $size-profile-page-icon;
+    height: $size-profile-page-icon;
+    border-radius: $size-profile-page-icon / 2;
+    box-shadow: 0.25rem 0.25rem 0.25rem $color-shadow;
+  }
+}
+
+.profile-info {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2rem 0 0;
+
+  @include container();
+
+  &__image {
+    margin-right: 1.5rem;
+  }
+
+  &__text-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

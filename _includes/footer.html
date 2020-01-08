@@ -1,7 +1,11 @@
 <footer class="footer">
   <div class="footer-container">
-    <img src="{{ '/assets/images/profile_icon.png' | relative_url }}" class="footer-profile__icon" alt="">
-    <p class="footer-profile__name">{{ site.author.name }}</p>
+    <a href="{{ "/profile.html" | relative_url }}" class="footer-container__link">
+      <img src="{{ '/assets/images/profile_icon.png' | relative_url }}" class="footer-profile__icon" alt="">
+    </a>
+    <a href="{{ "/profile.html" | relative_url }}" class="footer-container__link">
+      <p class="footer-profile__name">{{ site.author.name }}</p>
+    </a>
     {% include social-link.html %}
     <p class="footer-credit">Powered by <a href="https://jekyllrb.com/" class="footer-credit__link" target="blank">Jekyll</a> / <a href="https://github.com/wawawatataru/louis" class="footer-credit__link" target="blank">Louis</a></p>
   </div>

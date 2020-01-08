@@ -5,7 +5,8 @@
   }
 }
 
-.post-container {
+.post-container,
+.profile-container {
   flex-direction: column;
   padding: 2rem 0 5rem;
   color: $color-font-sub;
@@ -58,8 +59,8 @@
     color: $color-font-main;
   }
 
-  >ul,
-  >ol,
+  > ul,
+  > ol,
   img,
   pre,
   p {
@@ -101,7 +102,7 @@
   }
 
   table tbody tr:nth-child(odd) {
-    background-color: #eee
+    background-color: #eee;
   }
 
   .highlighter-rouge {

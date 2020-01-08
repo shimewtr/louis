@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="profile-info">
+  <div class="profile-info__image">
+    <img src="{{ '/assets/images/profile_icon.png' | relative_url }}" class="profile-page__icon" alt="">
+  </div>
+  <div class="profile-info__text-link">
+    <p class="profile-page__name">{{ site.author.name }}</p>
+    {% include social-link.html suffix="__profile" %}
+  </div>
+</div>
+
+<div class="profile-container">
+  {{ content }}
+</div>

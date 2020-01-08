@@ -9,6 +9,33 @@
     margin-right: 0.5rem;
   }
 
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    > :not(:last-child) {
+      margin-right: 0.5rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+
   &__item {
     display: flex;
     align-items: center;
