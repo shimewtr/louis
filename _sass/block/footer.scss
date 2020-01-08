@@ -27,6 +27,8 @@
     margin-bottom: 0.5rem;
     width: $size-footer-profile-icon;
     height: $size-footer-profile-icon;
+    border-radius: $size-footer-profile-icon / 2;
+    box-shadow: 0.25rem 0.25rem 0.25rem $color-shadow;
   }
 }
 
