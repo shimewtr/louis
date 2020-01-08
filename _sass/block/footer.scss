@@ -15,16 +15,23 @@
   border-top: 1px solid $color-border;
 
   @include container();
+
+  &__link {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    color: $color-font-main;
+    text-decoration: none;
+  }
 }
 
 .footer-profile {
   &__name {
-    margin-bottom: 0.5rem;
     font-size: 1rem;
   }
 
   &__icon {
-    margin-bottom: 0.5rem;
     width: $size-footer-profile-icon;
     height: $size-footer-profile-icon;
     border-radius: $size-footer-profile-icon / 2;
