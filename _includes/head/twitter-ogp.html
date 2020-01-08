@@ -1,4 +1,4 @@
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{ site.author.twitter }}">
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title site.title }} | {{ site.title }}">
@@ -12,5 +12,5 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
-<meta name="twitter:image" content="{{ "/assets/images/default_ogp.png" | prepend: site.baseurl | prepend: site.url }}">
-<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="twitter:image" content="{{ "assets/images/default_ogp.png" | absolute_url }}">
+<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
