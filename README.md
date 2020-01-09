@@ -1,52 +1,52 @@
-# louis
+# Louis
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+![Louisロゴ](https://github.com/wawawatataru/louis/blob/master/assets/images/favicon/android-chrome-192x192.png?raw=true,"Louisロゴ")
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-louis.svg)](https://badge.fury.io/rb/jekyll-theme-louis)
 
-TODO: Delete this and the text above, and describe your gem
-
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "louis"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: louis
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install louis
+Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provides very simple blog theme for Jekyll sites that includes a profile, post and other pages.
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+1. Add this line to your Jekyll site's `Gemfile`:
 
-## Contributing
+```ruby
+gem "jekyll-theme-louis"
+```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+2. And add this line to your Jekyll site's `_config.yml`:
 
-## Development
+```yaml
+theme: jekyll-theme-louis
+```
 
-To set up your environment to develop this theme, run `bundle install`.
+3. And then execute:
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+```bash
+$ bundle
+```
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `louis.gemspec` accordingly.
+## Customizing
+
+### Configuration variables
+
+Louis will respect the following variables, if set in your site's `_config.yml`:
+
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
+
+Please enter author information.
+
+```yml
+author:
+  name: [Author name]
+  github: [Author github account (optinal)]
+  twitter: [Author twitter account (optinal)]
+  facebook: [Author facebook account (optinal)]
+```
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

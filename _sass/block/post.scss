@@ -5,6 +5,7 @@
   }
 }
 
+.page-container,
 .post-container,
 .profile-container {
   flex-direction: column;
@@ -59,8 +60,8 @@
     color: $color-font-main;
   }
 
-  > ul,
-  > ol,
+  >ul,
+  >ol,
   img,
   pre,
   p {

@@ -8,7 +8,6 @@ excerpt_separator: "<!--more-->"
 
 author:
   name: John Smith
-  email: john.smith@example.com
   github: jekyll
   twitter: jekyll
   facebook: jekyll
