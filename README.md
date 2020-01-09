@@ -6,6 +6,9 @@
 
 Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provides very simple blog theme for Jekyll sites that includes a profile, post and other pages.
 
+
+![Louisイメージ](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
+
 ## Usage
 
 1. Add this line to your Jekyll site's `Gemfile`:
