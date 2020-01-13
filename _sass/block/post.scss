@@ -64,7 +64,9 @@
   >ol,
   img,
   pre,
-  p {
+  p,
+  table,
+  blockquote {
     margin-bottom: 1.5rem;
   }
 
@@ -104,6 +106,15 @@
 
   table tbody tr:nth-child(odd) {
     background-color: #eee;
+  }
+
+  blockquote {
+    padding: 0.25rem 0 0.25rem 0.5rem;
+    border-left: 0.25rem solid $color-border;
+
+    >p {
+      margin-bottom: 0;
+    }
   }
 
   .highlighter-rouge {
