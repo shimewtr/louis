@@ -1,0 +1,22 @@
+.amazon-associate {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid $color-border;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  &__image {
+    margin-right: 1rem;
+    margin-bottom: 0 !important;
+    width: 9rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+  }
+}
