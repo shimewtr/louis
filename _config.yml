@@ -12,6 +12,8 @@ author:
   twitter: jekyll
   facebook: jekyll
 
+google_analytics_id:
+
 sass:
   style: compressed
 
