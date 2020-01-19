@@ -6,7 +6,6 @@
 
 Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provides very simple blog theme for Jekyll sites that includes a profile, post and other pages.
 
-
 ![Louisイメージ](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
 
 ## Usage
@@ -48,6 +47,12 @@ author:
   github: [Author github account (optinal)]
   twitter: [Author twitter account (optinal)]
   facebook: [Author facebook account (optinal)]
+```
+
+If you want to analyze with Google Analytics, add Google Analytics ID to config.yml.
+
+```yml
+google_analytics_id: [google analytics id (optinal)]
 ```
 
 ## License
