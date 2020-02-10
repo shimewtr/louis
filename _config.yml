@@ -19,6 +19,15 @@ sass:
 
 plugins:
   - jekyll-paginate
+  - jekyll-archives
 
 paginate: 5
 paginate_path: page:num
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: archive
+  permalinks:
+    tag: "/archives/tag/:name/"

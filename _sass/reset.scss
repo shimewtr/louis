@@ -204,3 +204,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 100%;
   opacity: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}

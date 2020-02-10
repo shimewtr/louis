@@ -1,21 +1,21 @@
 {% if site.author.github || site.author.twitter || site.author.facebook %}
   <div class="social-link{{ include.suffix }}">
     {% if site.author.github %}
-      <a href="https://github.com/{{ site.author.github }}" target="blank">
+      <a href="https://github.com/{{ site.author.github }}" class="social-link__text" target="blank">
         <p class="social-link__item--github">
           <i class="fa fa-github"></i>
         </p>
       </a>
     {% endif %}
     {% if site.author.twitter %}
-      <a href="https://twitter.com/{{ site.author.twitter }}" target="blank">
+      <a href="https://twitter.com/{{ site.author.twitter }}" class="social-link__text" target="blank">
         <p class="social-link__item--twitter">
           <i class="fa fa-twitter"></i>
         </p>
       </a>
     {% endif %}
     {% if site.author.facebook %}
-      <a href="https://facebook.com/{{ site.author.facebook }}" target="blank">
+      <a href="https://facebook.com/{{ site.author.facebook }}" class="social-link__text" target="blank">
         <p class="social-link__item--facebook">
           <i class="fa fa-facebook"></i>
         </p>

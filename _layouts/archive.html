@@ -1,5 +1,9 @@
-<div class="posts">
-  {% for post in paginator.posts %}
+---
+layout: default
+---
+<ul class="posts">
+  <p class="posts-title">Tag: {{page.title}}</p>
+  {% for post in page.posts %}
     <div class="posts-content">
       <a href="{{ post.url | relative_url }}">
         <h1 class="post__title">{{ post.title }}</h1>
@@ -18,4 +22,4 @@
       </div>
     </div>
   {% endfor %}
-</div>
+</ul>

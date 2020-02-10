@@ -1,0 +1,13 @@
+<div class="tag-cloud">
+  <p class="tag-cloud__title">Tags</p>
+  <div class="cloud-tags">
+    {% for tag in site.tags %}
+      <div class="cloud-tag">
+        {% capture cat %}{{ tag | first }}{% endcapture %}
+        <a class="cloud-tag__link" href="{{ '/archives/tag/' | append: cat | relative_url }}">
+          <i class="fa fa-tag cloud-tag__icon"></i>{{ cat }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
