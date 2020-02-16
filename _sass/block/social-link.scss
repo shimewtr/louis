@@ -65,6 +65,21 @@
 }
 
 .fa {
-  color: white;
-  font-size: 1.5rem;
+  &-social-link {
+    color: white;
+    font-size: 1.5rem;
+
+  }
+
+  &-github {
+    @extend .fa-social-link;
+  }
+
+  &-twitter {
+    @extend .fa-social-link;
+  }
+
+  &-facebook {
+    @extend .fa-social-link;
+  }
 }
