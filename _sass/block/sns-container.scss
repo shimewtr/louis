@@ -5,7 +5,8 @@
   flex-direction: column;
   padding: 2.5rem 0 0;
   width: 5rem;
-  a {
+  &__button {
+    margin-bottom: .5rem;
     text-decoration: none;
   }
 }
