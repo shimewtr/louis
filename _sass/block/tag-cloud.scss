@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-left: 5rem;
   padding-bottom: 1.5rem;
   width: 50rem;
 
@@ -11,10 +12,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     padding-bottom: 0.25rem;
     width: 5rem;
-    border-bottom: 1px solid $color-border;
     color: $color-font-sub;
     font-size: 1rem;
   }
