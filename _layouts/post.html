@@ -1,24 +1,27 @@
 ---
 layout: default
 ---
-<div class="post-container">
-  <div class="post-header">
-    <h1 class="post__title">{{ page.title }}</h1>
-    <div class="post-meta">
-      <p class="post__date">{{ page.date | date: '%Y/%-m/%-d' }}</p>
-      <div class="post-tags">
-        {% for tag in page.tags %}
-          <div class="post-tag">
-            <a class="post-tag__link" href="{{ '/archives/tag/' | append: tag | relative_url }}">
-              <i class="fa fa-tag post-tag__icon"></i>{{ tag }}
-            </a>
-          </div>
-        {% endfor %}
+<div class="additional-container">
+  {% include sns-share.html %}
+  <div class="post-container">
+    <div class="post-header">
+      <h1 class="post__title">{{ page.title }}</h1>
+      <div class="post-meta">
+        <p class="post__date">{{ page.date | date: '%Y/%-m/%-d' }}</p>
+        <div class="post-tags">
+          {% for tag in page.tags %}
+            <div class="post-tag">
+              <a class="post-tag__link" href="{{ '/archives/tag/' | append: tag | relative_url }}">
+                <i class="fa fa-tag post-tag__icon"></i>{{ tag }}
+              </a>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="post-content">
-    {{ content }}
+    <div class="post-content">
+      {{ content }}
+    </div>
   </div>
 </div>
 

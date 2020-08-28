@@ -1,0 +1,11 @@
+.sns-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem 0 0;
+  width: 5rem;
+  a {
+    text-decoration: none;
+  }
+}
