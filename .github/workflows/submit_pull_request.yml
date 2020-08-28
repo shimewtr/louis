@@ -1,0 +1,26 @@
+name: Submit Pull Request
+
+on:
+  create:
+
+jobs:
+  SubmitPullRequest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.7"
+      - uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install Dependencies
+        run: pip3 install PyGithub
+      - name: Submit Pull Request
+        env:
+          GITHUB_ACCESS_TOKEN: ${{secrets.github_token}}
+        run: python3 .github/workflows/submit_pull_request/submit_pull_request.py
