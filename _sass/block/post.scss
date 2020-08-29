@@ -1,6 +1,14 @@
+.additional-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  width: $size-additional-container-width;
+}
+
 .post {
   &__title {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     width: 100%;
     font-size: 2.125rem;
   }
@@ -14,6 +22,8 @@
 }
 
 .post-container {
+  box-sizing: border-box;
+  margin-left: 5rem;
   padding: 2rem 0 0;
   width: 50rem;
 }

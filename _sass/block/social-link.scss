@@ -6,7 +6,7 @@
   margin-bottom: 0.5rem;
 
   > :not(:last-child) {
-    margin-right: 0.5rem;
+    margin-right: .625rem;
   }
 
   a {
@@ -61,14 +61,28 @@
 
       @extend .social-link__item;
     }
+
+    &--hatena {
+      background-color: $color-hatena;
+
+      @extend .social-link__item;
+    }
+
+    &--pocket {
+      background-color: $color-pocket;
+
+      @extend .social-link__item;
+    }
   }
 }
 
 .fa {
   &-social-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     color: white;
     font-size: 1.5rem;
-
   }
 
   &-github {
@@ -80,6 +94,23 @@
   }
 
   &-facebook {
+    @extend .fa-social-link;
+  }
+
+  &-hatena {
+    @extend .fa-social-link;
+    &:before {
+      content: "B!";
+      font-weight: bold;
+      font-style: normal;
+      font-size: 1.125rem;
+      font-family: Verdana;
+    }
+  }
+
+  &-get-pocket {
+    font-size: 1.125rem;
+
     @extend .fa-social-link;
   }
 }

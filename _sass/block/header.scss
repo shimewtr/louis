@@ -10,13 +10,15 @@
 }
 
 .header-container {
-  @include container();
+  display: flex;
+  width: $size-additional-container-width;
 
   &__link {
     text-decoration: none;
   }
 
   &__title {
+    padding-left: 5rem;
     width: 100%;
     color: $color-font-main;
     font-size: $size-font-header;
