@@ -1,0 +1,16 @@
+<div class="recent_articles">
+  <p class="recent_articles__title">最新の記事</p>
+  <ul class="recent_articles__list">
+    {% for post in site.posts %}
+      {% if forloop.index0 > 4 %}
+        {% break %}
+      {% else %}
+      <li class="recent_article__title">
+        <a class="recent_article__link" href={{ post.url | relative_url }}>
+          {{ post.title }}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

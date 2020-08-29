@@ -1,0 +1,28 @@
+.recent_articles {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 0 0 2rem;
+  width: 15rem;
+  &__title {
+    margin-bottom: 0.5rem;
+    color: $color-font-main;
+  }
+  &__list {
+    list-style-type: none;
+  }
+}
+
+.recent_article{
+  &__link {
+    color: $color-font-sub;
+    text-decoration: none;
+    &:hover {
+      opacity: .7;
+    }
+  }
+  &__title{
+    margin-bottom: .75rem;
+    color: $color-font-sub;
+    font-size: 0.875rem;
+  }
+}
