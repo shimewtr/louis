@@ -1,4 +1,8 @@
 @mixin container() {
   display: flex;
   width: $size-container-width;
+  @media screen and (max-width: 479px) {
+    display: flex;
+    width: $size-container-width-sp;
+  }
 }

@@ -3,4 +3,8 @@
   padding: 2rem 0 0;
 
   @include container();
+  @media screen and (max-width: 479px) {
+    padding: 1rem 0 0;
+    width: 90%;
+  }
 }

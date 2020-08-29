@@ -3,9 +3,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5rem;
   padding-bottom: 1.5rem;
   width: 50rem;
+
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
 
   &__title {
     display: flex;
@@ -17,6 +20,9 @@
     width: 5rem;
     color: $color-font-sub;
     font-size: 1rem;
+    @media screen and (max-width: 479px) {
+      margin-bottom: .875rem;
+    }
   }
 }
 

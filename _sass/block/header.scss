@@ -7,14 +7,28 @@
   height: $size-header-height;
 
   @include shadow-bottom();
+
+  @media screen and (max-width: 479px) {
+    width: $size-additional-container-width-sp;
+    height: $size-header-height-sp;
+  }
 }
 
 .header-container {
   display: flex;
   width: $size-additional-container-width;
-
+  @media screen and (max-width: 479px) {
+    justify-content: center;
+    width: $size-additional-container-width-sp;
+  }
   &__link {
     text-decoration: none;
+    @media screen and (max-width: 479px) {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: $size-additional-container-width-sp;
+    }
   }
 
   &__title {
@@ -22,5 +36,10 @@
     width: 100%;
     color: $color-font-main;
     font-size: $size-font-header;
+    @media screen and (max-width: 479px) {
+      padding-left: 0;
+      width: 90%;
+      font-size: $size-font-header-sp;
+    }
   }
 }
