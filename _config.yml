@@ -21,7 +21,7 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
 
-paginate: 5
+paginate: 10
 paginate_path: page:num
 
 jekyll-archives:

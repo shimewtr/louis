@@ -1,7 +1,7 @@
 html {
+  min-height: 100vh;
   color: $color-font-main;
   font-size: $size-font-base;
-  min-height: 100vh;
 }
 
 body {
@@ -9,4 +9,19 @@ body {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+}
+
+@media screen and (max-width: 479px) {
+  html {
+    min-height: 100vh;
+    color: $color-font-main;
+    font-size: $size-font-base;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 }

@@ -4,6 +4,14 @@
   flex-wrap: wrap;
   margin-bottom: 2rem;
   width: $size-additional-container-width;
+
+  @media screen and (max-width: 479px) {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 .post {
@@ -18,6 +26,11 @@
     width: 15%;
     color: $color-font-sub;
     font-size: 1rem;
+    @media screen and (max-width: 479px) {
+      margin-bottom: .25rem !important;
+      width: 100%;
+      font-size: 0.875rem;
+    }
   }
 }
 
@@ -26,6 +39,12 @@
   margin-left: 5rem;
   padding: 2rem 0 0;
   width: 50rem;
+
+  @media screen and (max-width: 479px) {
+    margin-left: 0;
+    padding: 0;
+    width: 90%;
+  }
 }
 
 .post-header {
@@ -42,6 +61,10 @@
   margin-bottom: 2rem;
   width: 100%;
   height: 1.5rem;
+  @media screen and (max-width: 479px) {
+  margin-bottom: 1rem;
+  height: auto;
+  }
 }
 
 .post-tags {
@@ -52,6 +75,10 @@
   justify-content: right;
   width: 85%;
   height: 100%;
+  @media screen and (max-width: 479px) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .post-tag {
@@ -63,6 +90,10 @@
   height: 100%;
   border: 1px solid $color-border;
   border-radius: 0.75rem;
+
+  @media screen and (max-width: 479px) {
+    height: 1.5rem;
+  }
 
   &__icon {
     margin-right: 0.25rem;
@@ -92,8 +123,18 @@
 
   @include container();
 
+  @media screen and (max-width: 479px) {
+    padding: 0 0 0rem;
+    width: 100%;
+    height: auto;
+    line-height: 1.5rem;
+  }
+
   h1 {
     font-size: 1.75rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.375rem;
+    }
   }
 
   h2 {
@@ -202,6 +243,19 @@
   }
 }
 
+.post-content {
+  width: $size-post-container-width !important;
+
+  @media screen and (max-width: 479px) {
+    width: 100% !important;
+  }
+}
+
 .posts-content {
   padding-bottom: 2rem !important;
+  width: $size-post-container-width !important;
+  @media screen and (max-width: 479px) {
+    padding-bottom: 0rem !important;
+    width: 100% !important;
+  }
 }

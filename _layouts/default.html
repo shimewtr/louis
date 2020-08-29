@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   {% include head/twitter-ogp.html %}

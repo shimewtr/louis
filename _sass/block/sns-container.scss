@@ -5,6 +5,17 @@
   flex-direction: column;
   padding: 2.5rem 0 0;
   width: 5rem;
+
+  @media screen and (max-width: 479px) {
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .75rem 0 0;
+    width: 70%;
+  }
   &__button {
     display: flex;
     align-items: center;
