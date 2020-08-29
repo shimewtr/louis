@@ -12,5 +12,8 @@
     justify-content: center;
     margin-bottom: .625rem;
     text-decoration: none;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
