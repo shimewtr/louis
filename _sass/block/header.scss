@@ -22,22 +22,27 @@
     width: $size-additional-container-width-sp;
   }
   &__link {
+    margin-left: 5rem;
     text-decoration: none;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
     @media screen and (max-width: 479px) {
       display: flex;
       align-content: center;
       justify-content: center;
+      margin-left: 0;
       width: $size-additional-container-width-sp;
     }
   }
 
   &__title {
-    padding-left: 5rem;
     width: 100%;
     color: $color-font-main;
     font-size: $size-font-header;
     @media screen and (max-width: 479px) {
-      padding-left: 0;
       width: 90%;
       font-size: $size-font-header-sp;
     }
