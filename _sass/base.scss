@@ -1,7 +1,14 @@
 html {
+  min-width: 70rem;
   min-height: 100vh;
   color: $color-font-main;
   font-size: $size-font-base;
+  @media screen and (max-width: 479px) {
+    min-width: 100%;
+    min-height: 100vh;
+    color: $color-font-main;
+    font-size: $size-font-base;
+  }
 }
 
 body {
@@ -9,16 +16,8 @@ body {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-}
-
-@media screen and (max-width: 479px) {
-  html {
-    min-height: 100vh;
-    color: $color-font-main;
-    font-size: $size-font-base;
-  }
-
-  body {
+  width: auto;
+  @media screen and (max-width: 479px) {
     display: flex;
     align-items: center;
     flex-direction: column;

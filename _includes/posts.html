@@ -1,8 +1,9 @@
+
 <div class="posts">
   {% for post in paginator.posts %}
     <div class="posts-content">
       <a href="{{ post.url | relative_url }}">
-        <h1 class="post__title">{{ post.title }}</h1>
+        <h2 class="post__title">{{ post.title }}</h2>
       </a>
       <div class="post-meta">
         <p class="post__date">{{ post.date | date: '%Y/%-m/%-d' }}</p>
