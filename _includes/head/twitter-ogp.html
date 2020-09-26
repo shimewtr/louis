@@ -12,5 +12,9 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
-<meta name="twitter:image" content="{{ "assets/images/default_ogp.png" | absolute_url }}">
+{% if page.ogp %}
+  <meta name="twitter:image" content="{{ "assets/ogp/" | absolute_url }}{{page.ogp}}">
+{% else %}
+  <meta name="twitter:image" content="{{ "assets/images/default_ogp.png" | absolute_url }}">
+{% endif %}
 <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
