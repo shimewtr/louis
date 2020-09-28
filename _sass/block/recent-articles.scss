@@ -1,4 +1,6 @@
 .recent_articles {
+  position: sticky;
+  top: 3rem;
   display: flex;
   flex-direction: column;
   padding: 2.5rem 0 0 2rem;

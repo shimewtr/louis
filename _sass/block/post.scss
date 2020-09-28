@@ -1,5 +1,6 @@
 .additional-container{
   display: flex;
+  align-items: baseline;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 2rem;
@@ -36,7 +37,6 @@
 
 .post-container {
   box-sizing: border-box;
-  margin-left: 5rem;
   padding: 2rem 0 0;
   width: 50rem;
 
