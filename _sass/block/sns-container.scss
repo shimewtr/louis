@@ -1,11 +1,11 @@
 .sns-container {
-  position: fixed;
+  position: sticky;
+  top: 3rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 2.5rem 0 0;
   width: 5rem;
-
   @media screen and (max-width: 479px) {
     position: relative;
     display: flex;
