@@ -1,3 +1,14 @@
+.profile-container {
+  box-sizing: border-box;
+  padding: 2rem 0 0;
+
+  @media screen and (max-width: 479px) {
+    margin-left: 0;
+    padding: 0;
+    width: 90%;
+  }
+}
+
 .profile-page {
   &__name {
     margin-bottom: 0.5rem;
@@ -9,6 +20,10 @@
     height: $size-profile-page-icon;
     border-radius: $size-profile-page-icon / 2;
     box-shadow: 0.25rem 0.25rem 0.25rem $color-shadow;
+    @media screen and (max-width: 479px) {
+      width: $size-profile-page-icon * 0.85;
+      height: $size-profile-page-icon * 0.85;
+    }
   }
 }
 
