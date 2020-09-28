@@ -255,7 +255,7 @@
   padding-bottom: 2rem !important;
   width: $size-post-container-width !important;
   @media screen and (max-width: 479px) {
-    padding-bottom: 0rem !important;
+    padding-bottom: 0.5rem !important;
     width: 100% !important;
   }
 }
