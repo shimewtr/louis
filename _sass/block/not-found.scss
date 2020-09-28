@@ -1,0 +1,24 @@
+.not-found {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+
+  &__title{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  &__text{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    @media screen and (max-width: 479px) {
+      font-size: 0.875rem;
+    }
+  }
+}
