@@ -1,12 +1,14 @@
 # Louis
 
-![Louisロゴ](https://github.com/wawawatataru/louis/blob/master/assets/images/favicon/android-chrome-192x192.png?raw=true,"Louisロゴ")
+![Louis画像](https://github.com/wawawatataru/louis/blob/master/assets/images/README_image.png?raw=true,"Louisロゴ")
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-louis.svg)](https://badge.fury.io/rb/jekyll-theme-louis)
 
 Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provides very simple blog theme for Jekyll sites that includes a profile, post and other pages.
 
-![Louisイメージ](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
+![Louis使用例](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
+
+The web page can be found [here](https://blog.shimewtr.me/).
 
 ## Usage
 
@@ -44,15 +46,15 @@ Please enter author information.
 ```yml
 author:
   name: [Author name]
-  github: [Author github account (optinal)]
-  twitter: [Author twitter account (optinal)]
-  facebook: [Author facebook account (optinal)]
+  github: [Author github account (optional)]
+  twitter: [Author twitter account (optional)]
+  facebook: [Author facebook account (optional)]
 ```
 
 If you want to analyze with Google Analytics, add Google Analytics ID to config.yml.
 
 ```yml
-google_analytics_id: [google analytics id (optinal)]
+google_analytics_id: [google analytics id (optional)]
 ```
 
 ## License
