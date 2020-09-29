@@ -1,10 +1,12 @@
-# Louis
-
 ![Louis画像](https://github.com/wawawatataru/louis/blob/master/assets/images/README_image.png?raw=true,"Louisロゴ")
+
+# Louis
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-louis.svg)](https://badge.fury.io/rb/jekyll-theme-louis)
 
 Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provides very simple blog theme for Jekyll sites that includes a profile, post and other pages.
+
+## Example
 
 ![Louis使用例](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
 
