@@ -1,5 +1,3 @@
 ## Issue
 
-#{issue_number} {title}
-
-## 変更点
+{submit_pull_request_issue_info}
