@@ -1,4 +1,4 @@
-![Louis画像](https://github.com/wawawatataru/louis/blob/master/assets/images/README_image.png?raw=true,"Louisロゴ")
+![Louis画像](https://github.com/shimewtr/louis/blob/master/assets/images/README_image.png?raw=true,"Louisロゴ")
 
 # Louis
 
@@ -8,7 +8,7 @@ Louis is a [Jekyll](https://github.com/jekyll/jekyll/) theme for Blog. It provid
 
 ## Example
 
-![Louis使用例](https://github.com/wawawatataru/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
+![Louis使用例](https://github.com/shimewtr/louis/blob/master/assets/images/usage_image.png?raw=true,"Louisイメージ")
 
 The web page can be found [here](https://blog.shimewtr.me/).
 
