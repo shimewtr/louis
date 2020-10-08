@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-louis"
   spec.version       = "0.1.6"
   spec.authors       = ["ShimeWataru"]
-  spec.email         = ["shimewtr@gmail.com"]
+  spec.email         = ["shimewtr@shimewtr.me"]
 
   spec.summary       = "Louis is a Jekyll theme for Blog"
   spec.homepage      = "https://github.com/shimewtr/louis"
