@@ -2,7 +2,7 @@
 layout: default
 ---
 <ul class="posts">
-  <p class="posts-title">Tag: {{page.title}}</p>
+  <p class="tag-name">Tag: {{page.title}}</p>
   {% for post in page.posts %}
     <div class="posts-content">
       <a href="{{ post.url | relative_url }}">
