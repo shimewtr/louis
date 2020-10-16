@@ -1,0 +1,31 @@
+.link-to-my-site {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 40%;
+  height: auto;
+  border: 1px solid $color-border;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  &:hover{
+    opacity: 0.6;
+  }
+  &__image {
+    margin-bottom: 0 !important;
+    width: 100%;
+  }
+  &__text-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+  &__title{
+    margin-bottom: 0 !important;
+    text-decoration: none;
+    line-height: 1.25rem;
+  }
+}
