@@ -1,16 +1,15 @@
-title: My Blog
+title: "shimewtr Blog"
 description: >
-  My Blog Description. This Theme is Louis.
-baseurl: ""
-url: ""
+  Webエンジニアshimewtrのブログです。日々の感想を投稿していきます。
+baseurl:
+url: "https://blog.shimewtr.me"
 
 excerpt_separator: "<!--more-->"
 
 author:
-  name: John Smith
-  github: jekyll
-  twitter: jekyll
-  facebook: jekyll
+  name: shimewtr
+  github: shimewtr
+  twitter: shimewtr
 
 google_analytics_id:
 
@@ -25,6 +24,8 @@ plugins:
 paginate: 10
 paginate_path: page:num
 
+jekyll-sitemap:
+  url: "https://blog.shimewtr.me"
 jekyll-archives:
   enabled:
     - tags
