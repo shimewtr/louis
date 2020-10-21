@@ -1,4 +1,4 @@
-.link-to-my-site {
+.link-site {
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -8,6 +8,9 @@
   border: 1px solid $color-border;
   border-radius: 0.5rem;
   text-decoration: none;
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
   &:hover{
     opacity: 0.6;
   }
