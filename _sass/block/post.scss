@@ -20,6 +20,10 @@
     margin-bottom: 1rem;
     width: 100%;
     font-size: 2.125rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.75rem;
+      line-height: 2.125rem;
+    }
   }
 
   &__date {
@@ -28,7 +32,7 @@
     color: $color-font-sub;
     font-size: 1rem;
     @media screen and (max-width: 479px) {
-      margin-bottom: .25rem !important;
+      margin-bottom: .75rem !important;
       width: 100%;
       font-size: 0.875rem;
     }
@@ -133,28 +137,49 @@
   h1 {
     font-size: 1.75rem;
     @media screen and (max-width: 479px) {
-      font-size: 1.375rem;
+      font-size: 1.625rem;
+      line-height: 1.75rem;
     }
   }
 
   h2 {
     font-size: 1.675rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+    }
   }
 
   h3 {
     font-size: 1.5rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.375rem;
+      line-height: 1.675rem;
+    }
   }
 
   h4 {
     font-size: 1.375rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
   }
 
   h5 {
     font-size: 1.25rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
   }
 
   h6 {
     font-size: 1.125rem;
+    @media screen and (max-width: 479px) {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
   }
 
   h1 {
@@ -181,7 +206,6 @@
   >ul,
   >ol,
   img,
-  pre,
   p,
   table,
   blockquote {
@@ -236,7 +260,7 @@
   }
 
   .highlighter-rouge {
-    padding: 0 0.25rem;
+    margin-bottom: 1rem;
     border: 1px solid $color-border;
     border-radius: 0.25rem;
     background-color: rgba($color-border, 0.25);
