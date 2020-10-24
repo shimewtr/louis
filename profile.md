@@ -5,4 +5,5 @@ title: Profile
 
 ## Profile
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. **Cum sociis** natoque penatibus et magnis dis parturient montes, **nascetur ridiculus mus**.
+[@shimewtr](https://twitter.com/shimewtr)と申します。  
+Web エンジニアとして主に Ruby on Rails を用いたプロダクト開発に従事しています。  
