@@ -6,3 +6,10 @@ _site
 Gemfile.lock
 .history/*
 _posts/1900*
+
+.envrc
+mkogp.py
+fonts/
+assets/icon.png
+
+node_modules/
