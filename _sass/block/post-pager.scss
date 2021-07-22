@@ -1,7 +1,9 @@
 .post-pager {
   align-items: center;
   flex-direction: row;
+  justify-content: space-around;
   margin: 0 0 4rem;
+  width: 100% !important;
   height: auto;
 
   @include container();
